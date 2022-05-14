@@ -2,4 +2,4 @@
 
 ## Links
 
-[psutil, gpuutil, tabular](https://www.thepythoncode.com/article/get-hardware-system-information-python)
+[psutil, gputil, tabular](https://www.thepythoncode.com/article/get-hardware-system-information-python)
