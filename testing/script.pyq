@@ -1,0 +1,10 @@
+
+#pyQ -j  test
+#pyQ -g  1
+#pyQ -c  1
+#pyQ -t  0
+#pyQ -o out
+#pyQ -cp False
+
+pmemd.cuda -O -ref example/humALOX15B_ACD_hf_solv.inpcrd -p example/humALOX15B_ACD_hf_solv.prmtop -c example/humALOX15B_ACD_hf_solv.inpcrd -i example/1_min_1.in -o example/1_min_1.mdout -inf example/1_min_1.mdinf -r example/1_min_1.rst
+pmemd.cuda -O -ref example/humALOX15B_ACD_hf_solv.inpcrd -p example/humALOX15B_ACD_hf_solv.prmtop -c example/1_min_1.rst -i example/1_min_2.in -o example/1_min_2.mdout -inf example/1_min_2.mdinf -r example/1_min_2.rst
