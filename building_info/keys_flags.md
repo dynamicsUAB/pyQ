@@ -7,7 +7,8 @@ There will be two different ways for sending jobs: via the CLI, so using flags, 
 Keys can be specified inside the sent script following this syntaxis:
 
 ```bash
-#pyQ -key content
+#pyQ -key_short content
+#pyQ --key_long content
 ```
 Being 'key' the desired key and 'content' the content for the specified key. Only one key has to be specified in each line.
 

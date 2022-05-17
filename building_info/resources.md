@@ -37,4 +37,12 @@ for gpu in gpus:
 print(tabulate(list_gpus, headers=("id", "name", "load", "free memory", "used memory", "total memory",
                                    "temperature", "uuid")))
 ```
-    gpu_uuid = gpu.uuid
+
+## Amber send to specific GPU
+Specify the CUDA_VISIBLE_DEVICES env var befor the execution:
+
+```bash
+export CUDA_VISIBLE_DEVICES=n
+````
+
+Being n the ID of the GPU (starting from 0).
